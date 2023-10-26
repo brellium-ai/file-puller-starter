@@ -36,6 +36,9 @@ const main = async (config: Config) => {
     'sec-fetch-site': 'same-origin',
   }
 
+  console.log('authorizedHeaders: ', authorizedHeaders)
+  console.log('fullHeaders: ', fullHeaders)
+
   /**
    * Use the above headers to make all the following API requests (reference technical doc)
    * Make request to retrieve Files - https://members.centralreach.com/crxapi/resources
